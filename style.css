@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: auto;
+  width: 1300px;
+  padding: 10px 30px;
+  background-color: #1E0C00;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+  gap: 40px;
+}
+.navbar__link {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.8805px;
+  line-height: 109.5%;
+  /* identical to box height, or 20px */
+  color: #a3a3a3;
+}
+.navbar__link:hover {
+  color: #ffa228;
+}
+.navbar__link:active {
+  color: #ff6432;
+}
+.navbar__btn {
+  width: 163px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ffa228;
+  color: white;
+}
+.navbar__btn:hover {
+  background-color: #ff6432;
+}
+.navbar__right {
+  display: flex;
+  gap: 20px;
+}
+.navbar__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ffa228;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__icon:hover {
+  background-color: #ff6432;
+}
+.navbar i {
+  color: white;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+.intro__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.intro__title {
+  width: 500px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69.1697px;
+  line-height: 109.5%;
+  /* or 76px */
+  color: #ffffff;
+}
+.intro__text {
+  width: 400px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5621px;
+  line-height: 30px;
+  color: #a3a3a3;
+}
+.intro__text span {
+  color: #ffffff;
+}
+.intro__text2 {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5621px;
+  line-height: 136%;
+  /* identical to box height, or 27px */
+  color: #a3a3a3;
+}
+.intro__vidio {
+  margin-left: -30px;
+}
+.intro__btn {
+  width: 229px;
+  height: 62px;
+  border-radius: 40px;
+  background-color: #fe9c1c;
+  color: #ffffff;
+}
+.intro__btn:hover {
+  background-color: #ff5e2a;
+}
+.intro__btn2 {
+  width: 229px;
+  height: 62px;
+  border-radius: 40px;
+  border-color: #fe9c1c;
+  background-color: #1E0C00;
+  color: #fe9c1c;
+}
+.intro__btn2:hover {
+  border-color: #ff5e2a;
+  color: #ff5e2a;
+}
+
+.menu {
+  margin-top: 50px;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu__list:hover {
+  border-color: #fe9c1c;
+}
+.menu__item {
+  width: 230px;
+  height: 62px;
+  border: 1px solid #210a01;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item:hover {
+  background-color: #fe9c1c;
+}
+.menu__item:active {
+  background-color: #ff5e2a;
+}
+.menu__link {
+  color: white;
+}
+.menu__pizza {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__pizza_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu__pizza_text {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25.1018px;
+  line-height: 109.5%;
+  /* or 27px */
+  color: #ffffff;
+}
+.menu__pizza_text2 {
+  width: 229px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.3197px;
+  line-height: 109.5%;
+  /* or 16px */
+  color: #a3a3a3;
+}
+.menu__pizza_son {
+  display: flex;
+  gap: 20px;
+}
+.menu__pizza_son1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #a3a3a3;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: #a3a3a3;
+}
+.menu__pizza_son1:hover {
+  background-color: #fe9c1c;
+  color: #ffffff;
+  border: none;
+}
+.menu__pizza_son1:active {
+  background-color: #ff5e2a;
+  color: #ffffff;
+  border: none;
+}
+.menu__pizza_text3 {
+  color: #ffffff;
+}
+
+.munu__pizza_btn {
+  width: 194px;
+  height: 39px;
+  border-radius: 30px;
+  border-color: #fe9c1c;
+  color: #fe9c1c;
+  background-color: #210a01;
+}
+.munu__pizza_btn:hover {
+  border-color: #ff5e2a;
+  color: #ff5e2a;
+}
+
+.mune__pizza_btn2 {
+  width: 194px;
+  height: 45px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #fe9c1c;
+  border: none;
+}
+.mune__pizza_btn2:hover {
+  background-color: #ff5e2a;
+  color: #ffffff;
+}
+
+.most {
+  background-image: url(../img/most__img.png);
+  height: 286px;
+  margin: 54px 0;
+  padding: 120px 375px;
+}
+.most__title {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43.8638px;
+  line-height: 108.5%;
+  /* or 48px */
+  color: #ffffff;
+  text-shadow: 0px 11.5905px 10.2269px rgba(14, 4, 4, 0.38);
+}
+
+.images {
+  margin-top: 75px;
+}
+.images__cards1 {
+  display: flex;
+  gap: 24px;
+}
+.images__card1 {
+  background-image: url(../img/card1.png);
+  width: 367px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+}
+.images__card2 {
+  background-image: url(../img/card2.png);
+  width: 367px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+}
+.images .images__card_text {
+  width: 180px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25.0926px;
+  line-height: 108.5%;
+  /* or 27px */
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

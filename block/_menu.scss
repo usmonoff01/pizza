@@ -1,0 +1,116 @@
+.menu {
+  margin-top: 50px;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:hover {
+      border-color: #fe9c1c;
+    }
+  }
+  &__item {
+    width: 230px;
+    height: 62px;
+    border: 1px solid #210a01;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #fe9c1c;
+    }
+    &:active {
+      background-color: #ff5e2a;
+    }
+  }
+  &__link {
+    color: white;
+  }
+
+  &__pizza {
+    display: flex;
+    justify-content: space-between;
+    &_card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    &_text {
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25.1018px;
+      line-height: 109.5%;
+      /* or 27px */
+
+      color: #ffffff;
+    }
+    &_text2 {
+      width: 229px;
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14.3197px;
+      line-height: 109.5%;
+      /* or 16px */
+
+      color: #a3a3a3;
+    }
+    &_son {
+      display: flex;
+      gap: 20px;
+    }
+    &_son1 {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #a3a3a3;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      color: #a3a3a3;
+      &:hover {
+        background-color: #fe9c1c;
+        color: #ffffff;
+        border: none;
+      }
+      &:active {
+        background-color: #ff5e2a;
+        color: #ffffff;
+        border: none;
+      }
+    }
+    &_text3 {
+      color: #ffffff;
+    }
+  }
+}
+
+.munu__pizza_btn {
+  width: 194px;
+  height: 39px;
+  border-radius: 30px;
+  border-color: #fe9c1c;
+  color: #fe9c1c;
+  background-color: #210a01;
+  &:hover {
+    border-color: #ff5e2a;
+    color: #ff5e2a;
+  }
+}
+
+.mune__pizza_btn2 {
+  width: 194px;
+  height: 45px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #fe9c1c;
+  border: none;
+  &:hover {
+    background-color: #ff5e2a;
+    color: #ffffff;
+  }
+}

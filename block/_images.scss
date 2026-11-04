@@ -1,0 +1,32 @@
+.images {
+  margin-top: 75px;
+  &__cards1 {
+    display: flex;
+    gap: 24px;
+  }
+  &__card1 {
+    background-image: url(../img/card1.png);
+    width: 367px;
+    height: 260px;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  &__card2 {
+    background-image: url(../img/card2.png);
+    width: 367px;
+    height: 260px;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .images__card_text {
+    width: 180px;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.0926px;
+    line-height: 108.5%;
+    /* or 27px */
+
+    color: #ffffff;
+  }
+}

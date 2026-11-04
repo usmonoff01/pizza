@@ -1,0 +1,18 @@
+.most {
+  background-image: url(../img/most__img.png);
+  height: 286px;
+  margin: 54px 0;
+  padding: 120px 375px;
+  &__title {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43.8638px;
+    line-height: 108.5%;
+    /* or 48px */
+
+    color: #ffffff;
+
+    text-shadow: 0px 11.5905px 10.2269px rgba(14, 4, 4, 0.38);
+  }
+}
