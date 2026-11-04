@@ -1,0 +1,41 @@
+.about {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  &__title {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69.1697px;
+    line-height: 109.5%;
+    /* identical to box height, or 76px */
+
+    color: #ffffff;
+  }
+  &__text {
+    width: 430px;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5621px;
+    line-height: 27px;
+
+    color: #a3a3a3;
+    &2 {
+      width: 400px;
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19.5621px;
+      line-height: 27px;
+
+      color: #a3a3a3;
+    }
+  }
+}

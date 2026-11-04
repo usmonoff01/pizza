@@ -1,0 +1,96 @@
+.footer {
+  background: linear-gradient(
+    245.71deg,
+    #170a00 4.96%,
+    #170600 33.7%,
+    #0f0700 68.41%,
+    #170a00 96.42%
+  );
+
+  &__cards {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 70px 0;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__link {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.7249px;
+    line-height: 125.68%;
+    /* or 22px */
+    letter-spacing: -0.02em;
+
+    color: #515151;
+  }
+  &__card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    &_text {
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19.6259px;
+      line-height: 125.68%;
+      /* identical to box height, or 25px */
+      letter-spacing: -0.02em;
+
+      color: #a3a3a3;
+      &2 {
+        color: #515151;
+      }
+    }
+  }
+  &__card5 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    &_text {
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19.6259px;
+      line-height: 125.68%;
+      /* identical to box height, or 25px */
+      letter-spacing: -0.02em;
+
+      color: #a3a3a3;
+      &2 {
+        color: #515151;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_link {
+      background: linear-gradient(261.69deg, #ff612e 12.12%, #ffa32b 86.72%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+}
+
+#home,
+#menu {
+  color: #a3a3a3;
+}
+
+i {
+    color: #ffa32b;
+    width: 32px;
+    height: 32px;
+    &:hover{
+        color: #ff612e;
+    }
+}

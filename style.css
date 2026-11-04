@@ -284,6 +284,10 @@ a {
   height: 260px;
   background-size: cover;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
 }
 .images__card2 {
   background-image: url(../img/card2.png);
@@ -291,8 +295,12 @@ a {
   height: 260px;
   background-size: cover;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
 }
-.images .images__card_text {
+.images__card_text {
   width: 180px;
   font-family: "Muller";
   font-style: normal;
@@ -301,4 +309,234 @@ a {
   line-height: 108.5%;
   /* or 27px */
   color: #ffffff;
+}
+.images__card_btn {
+  width: 204px;
+  height: 48px;
+  background: linear-gradient(261.69deg, #ff5d29 12.12%, #fe9c1c 86.72%);
+  border-radius: 32px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3846px;
+  line-height: 108.5%;
+  /* identical to box height, or 17px */
+  border: none;
+  color: #ffffff;
+}
+.images__card_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.images__card_title {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69.1697px;
+  line-height: 109.5%;
+  /* identical to box height, or 76px */
+  color: #ffffff;
+}
+.images__card__text {
+  width: 400px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5621px;
+  line-height: 27px;
+  text-align: right;
+  color: #a3a3a3;
+}
+.images__cards2 {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.images__card3 {
+  background-image: url(../img/card\ 3.png);
+  width: 567px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
+}
+.images__card4 {
+  background-image: url(../img/card4.png);
+  width: 600px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
+}
+.images__cards3 {
+  display: flex;
+  gap: 22px;
+  margin-top: 24px;
+}
+.images__card5 {
+  background-image: url(../img/card5.png);
+  width: 390px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
+}
+.images__card6 {
+  background-image: url(../img/card6.png);
+  width: 390px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 60px 25px;
+}
+.images__card7 {
+  background-image: url(../img/card7.png);
+  width: 380px;
+  height: 260px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 25px;
+}
+
+.about {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.about__title {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69.1697px;
+  line-height: 109.5%;
+  /* identical to box height, or 76px */
+  color: #ffffff;
+}
+.about__text {
+  width: 430px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5621px;
+  line-height: 27px;
+  color: #a3a3a3;
+}
+.about__text2 {
+  width: 400px;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5621px;
+  line-height: 27px;
+  color: #a3a3a3;
+}
+
+.footer {
+  background: linear-gradient(245.71deg, #170a00 4.96%, #170600 33.7%, #0f0700 68.41%, #170a00 96.42%);
+}
+.footer__cards {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer__link {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.7249px;
+  line-height: 125.68%;
+  /* or 22px */
+  letter-spacing: -0.02em;
+  color: #515151;
+}
+.footer__card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer__card3_text {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.6259px;
+  line-height: 125.68%;
+  /* identical to box height, or 25px */
+  letter-spacing: -0.02em;
+  color: #a3a3a3;
+}
+.footer__card3_text2 {
+  color: #515151;
+}
+.footer__card5 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer__card5_text {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.6259px;
+  line-height: 125.68%;
+  /* identical to box height, or 25px */
+  letter-spacing: -0.02em;
+  color: #a3a3a3;
+}
+.footer__card5_text2 {
+  color: #515151;
+}
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bottom_link {
+  background: linear-gradient(261.69deg, #ff612e 12.12%, #ffa32b 86.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#home,
+#menu {
+  color: #a3a3a3;
+}
+
+i {
+  color: #ffa32b;
+  width: 32px;
+  height: 32px;
+}
+i:hover {
+  color: #ff612e;
 }/*# sourceMappingURL=style.css.map */
