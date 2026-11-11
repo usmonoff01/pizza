@@ -1,9 +1,21 @@
 .menu {
   margin-top: 50px;
+  &__title {
+    text-align: center;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69.1697px;
+    line-height: 109.5%;
+    /* or 76px */
+
+    color: #ffffff;
+  }
   &__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 40px;
     &:hover {
       border-color: #fe9c1c;
     }
@@ -11,7 +23,7 @@
   &__item {
     width: 230px;
     height: 62px;
-    border: 1px solid #210a01;
+    background-color: #210a01;
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -112,5 +124,45 @@
   &:hover {
     background-color: #ff5e2a;
     color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .menu {
+    &__title {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 109.5%;
+      /* or 53px */
+
+      color: #ffffff;
+    }
+    &__list {
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: 140px;
+      height: 37px;
+    }
+    &__pizza {
+      flex-wrap: wrap;
+      &_card {
+        width: 180px;
+        margin-top: 20px;
+        background-color: #210a01;
+        border-radius: 12px;
+      }
+      &_text2 {
+        width: 70%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.7562px;
+        line-height: 109.5%;
+        /* or 10px */
+
+        color: #a3a3a3;
+      }
+    }
   }
 }

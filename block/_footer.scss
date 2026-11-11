@@ -1,4 +1,5 @@
 .footer {
+  padding: 0;
   background: linear-gradient(
     245.71deg,
     #170a00 4.96%,
@@ -10,8 +11,13 @@
   &__cards {
     display: flex;
     align-items: start;
-    justify-content: space-between;
+    gap: 100px;
+
     padding: 70px 0;
+  }
+  &__topcards{
+    display: flex;
+    gap: 130px;
   }
   &__list {
     display: flex;
@@ -87,10 +93,22 @@
 }
 
 i {
-    color: #ffa32b;
-    width: 32px;
-    height: 32px;
-    &:hover{
-        color: #ff612e;
+  color: #ffa32b;
+  width: 32px;
+  height: 32px;
+  &:hover {
+    color: #ff612e;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    &__cards {
+      flex-direction: column;
+      gap: 30px;
     }
+    &__topcards{
+      flex-wrap: wrap;
+    }
+  }
 }

@@ -16,3 +16,24 @@
     text-shadow: 0px 11.5905px 10.2269px rgba(14, 4, 4, 0.38);
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .most {
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 100px 50px;
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26.8218px;
+      line-height: 108.5%;
+      /* or 29px */
+
+      color: #ffffff;
+
+      text-shadow: 0px 7.08737px 6.25356px rgba(14, 4, 4, 0.38);
+    }
+  }
+}
